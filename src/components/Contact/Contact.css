@@ -52,6 +52,15 @@
   scale: 0.8;
 }
 
+.white-gradient{
+  position: fixed;
+  width: 20rem;
+  height: 20rem;
+  background: rgba(226, 189, 189, 0.438);
+  filter: blur(200px);
+  border-radius: 100px;
+}
+
 @media (max-width: 1024px) {
   .c-container {
     flex-direction: column;

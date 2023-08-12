@@ -5,7 +5,12 @@ import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 import "swiper/css";
 import "./Residencies.css";
 import { sliderSettings } from "../../utils/common";
+import { NavLink, useNavigate } from "react-router-dom";
+import PropertyCard from "../PropertyCard/PropertyCard";
+
 const Residencies = () => {
+
+  const navigate = useNavigate();
   return (
     <div id="residencies" className="r-wrapper">
       <div className="paddings innerWidth r-container">
@@ -18,7 +23,14 @@ const Residencies = () => {
           {/* slider */}
           {data.map((card, i) => (
             <SwiperSlide key={i}>
-              <div className="flexColStart r-card">
+
+              <div className="flexColStart r-card"
+
+
+
+                // on clicking on the property card, navigate to the specificpage of the card of id card.id
+                onClick={() => navigate(`../Apartments/${card.id}`)}
+              >
                 <img src={card.image} alt="home" />
 
                 <span className="secondaryText r-price">
@@ -28,11 +40,17 @@ const Residencies = () => {
                 <span className="primaryText">{card.name}</span>
                 <span className="secondaryText">{card.detail}</span>
               </div>
+
             </SwiperSlide>
           ))}
         </Swiper>
       </div>
-    </div>
+      <div className="flexColCenter prop"  onClick={() => navigate(`../Apartments/`)}> 
+        
+        <h1>All Properties</h1>
+      </div>      
+    
+    </div >
   );
 };
 

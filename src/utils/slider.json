@@ -1,38 +1,56 @@
 [
   {
-    "name": "Aliva Priva Jardin",
+    "name": "Dominion villa",
     "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "./r1.png"
+    "detail": "60b, adetoro adelaja, magodo",
+    "image": "/r1.png",
+    "id": "1",
+    "city": "lagos",
+    "country": "nigeria"
   },
   {
-    "name": "Asatti Garden City",
+    "name": "SeeSaw Garden City",
     "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "./r2.png"
+    "detail": "41, sasegbon st, ikeja gra",
+    "image": "/r2.png",
+    "id": "2",
+    "city": "lagos",
+    "country": "nigeria"
   },
   {
-    "name": "Citralan Puri Serang",
+    "name": "Jake city",
     "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "./r3.png"
+    "detail": "6, obafemi anibaba cresent lekki phase 1",
+    "image": "/r3.png",
+    "id": "3",
+    "city": "lagos",
+    "country": "nigeria"
   },
   {
-    "name": "Aliva Priva Jardin",
+    "name": "Dominion villa",
     "price": "47,043",
-    "detail": "Jakarta Garden City Street, Cakung. Pulo Gadung, Jakarta Timur, DKI Jakarta",
-    "image": "./r1.png"
+    "detail": "60b, adetoro adelaja, magodo",
+    "image": "/r1.png",
+    "id": "4",
+    "city": "lagos",
+    "country": "nigeria"
   },
   {
-    "name": "Asatti Garden City",
+    "name": "SeeSaw Garden City",
     "price": "66,353",
-    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan, Depok, Jawa Barat",
-    "image": "./r2.png"
+    "detail": "41, sasegbon st, ikeja gra",
+    "image": "/r2.png",
+    "id": "5",
+    "city": "lagos",
+    "country": "nigeria"
   },
   {
-    "name": "Citralan Puri Serang",
+    "name": "Jake city",
     "price": "35,853",
-    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street, Ciracas, Serang, Banten",
-    "image": "./r3.png"
+    "detail": "6, obafemi anibaba cresent lekki phase 1",
+    "image": "/r3.png",
+    "id": "6",
+    "city": "lagos",
+    "country": "nigeria"
   }
 ]

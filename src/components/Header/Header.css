@@ -10,6 +10,7 @@
   justify-content: space-between;
 }
 
+
 .h-menu {
   gap: 2rem;
 }
@@ -22,7 +23,7 @@
 
 @media (max-width: 768px) {
   .menu-icon {
-    display: block;
+    display: Block;
   }
   .h-menu {
     color: var(--black);

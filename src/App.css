@@ -1,17 +1,42 @@
 .App{
   position: relative;
   overflow-x: clip;
+  background-color: white;
 }
 .App>:nth-child(1)
 {
   background: var(--black);
   position: relative;
 }
-.white-gradient{
-  position: absolute;
+
+.App>:nth-child(4)
+{
+  background: var(--black);
+  position: relative;
+ 
+
+
+}
+
+
+
+
+.w-gradient{
+  position: relative;
   width: 20rem;
   height: 20rem;
-  background: rgba(255, 255, 255, 0.522);
-  filter: blur(100px);
+  background: rgba(226, 189, 189, 0.438);
+  filter: blur(200px);
+  border-radius: 100px;
+}
+
+.white-gradient{
+  position: fixed;
+  right: 40%;
+  top: 30%;
+  width: 20rem;
+  height: 20rem;
+  background: rgba(226, 189, 189, 0.438);
+  filter: blur(120px);
   border-radius: 100px;
 }
